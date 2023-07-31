@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #008000;
+    font-weight: 100;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+p{
+    color: #616161;
+}
+
+.green {
+    background-color: #386738	 !important;
+}
+
+#tree{
+    background-color: rgb(38, 19, 4);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn{
+    background-color: #386738;
+}
+
+.btn:hover{
+    background-color:rgb(38, 19, 4);
+}
+
+#footer{
+    background-color: #386738;
+}
+
+.collapsible-header{
+    background-color: #2a3b27;
+    color: aliceblue;
+}
+
+.collapsible-body{
+    background-color:#486143
+}

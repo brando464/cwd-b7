@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON BRAND</title>
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/fdb698e103.js" crossorigin="anonymous"></script>
+<!--Materialize Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+<!--NAVBAR-->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper green">
+            <div class="col s12 offset-3">
+                <a href="" class=""></a>
+                <a href="" class="brand-logo">
+                    <i id="tree"class="fa-solid fa-tree">  ON BRAND</i>
+                </a>
+            </div>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Youtube</a></li>
+                <li><a href="">Podcast</a></li>
+                <li><a href="">Discord</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Newsletter</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!--PARALLAX-->
+    <div class="parallax-container">
+        <div class="container">
+            <span>
+                <div class="row center">
+                    <div class="col s12">
+                        <br><br><br>
+                        <h1 class="brown-text center">Welcome</h1>
+                        <br><br>
+                        <a href=""class="waves-effect waves-light btn">
+                            <i class="material-icons left">gesture</i>About me</a>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <div class="parallax">
+            <img src="img/mountain.jpg">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Hello!</h2>
+            <p class="grey-text text-darken-3 lighten-3">Welcome to my website! My name is Brandon! I am a full time content creator and freelance photographer. Here are some of my favorite recent photos!</p>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card-panel">
+                        <div class="card-image">
+                            <img src="img/first.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card-panel">
+                        <div class="card-image">
+                            <img src="img/second.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card-panel">
+                        <div class="card-image">
+                            <img src="img/third.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <span>
+            <div class="row">
+                <br><br><br><br><br><br><br><br>
+                <div class="col s12 m8 l8">
+                    <h1 class="white-text right">FAQs</h1>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="container">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header">How can I contact you?</div>
+                                <div class="collapsible-body"><span>You can contact me via my email brandonliberia@gmail.com</span></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Do you sell merch?</div>
+                                <div class="collapsible-body">Not yet but I'm releasing some soon!</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <br><br>
+                </div>
+            </div>
+        </span>
+        <div class="parallax">
+            <img src="img/bear.jpg">
+        </div>
+    </div>
+
+<!--FOOTER-->
+<footer id=footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text text-lighten-4">brandonliberia@gmail.com</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Podcast</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Discord</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 OnBrand
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
+
+<!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    //materialboxed init
+    $('.materialboxed').materialbox({
+        inDuration: 1000,
+        outDuration: 1000
+    })
+    //slider init
+    $('.slider').slider({
+        indicators: true
+    });
+    //parallax init
+    $('.parallax').parallax();
+    //collapsible
+    $('.collapsible').collapsible();
+    //push pin
+    $('.pushpin').pushpin();
+})
+
+
+
+        
+</script>
+
